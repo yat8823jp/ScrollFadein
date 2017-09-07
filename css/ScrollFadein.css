@@ -1,0 +1,22 @@
+.is-hidden {
+	opacity: 0 !important;
+}
+.is-move {}
+.is-move__item { opacity: 1; }
+.is-move__item.is-active {
+		animation-name: movetop;
+		animation-duration: .8s;
+		animation-timing-function: ease;
+		animation-iteration-count: 1;
+		animation-delay: normal;
+}
+@keyframes movetop {
+	0% {
+		margin-top: 200px;
+		opacity: 0;
+	}
+	100% {
+		margin-top: 0;
+		opacity: 1;
+	}
+}

@@ -1,0 +1,15 @@
+.main {
+	height: 3000px;
+	position: relative
+}
+.box, .box2 {
+	width: 300px;
+	height: 300px;
+	position: absolute;
+	top: 1000px;
+	background: #f00;
+	display: block;
+}
+.box2 {
+	top: 2000px;
+}
